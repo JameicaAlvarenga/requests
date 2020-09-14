@@ -3,6 +3,10 @@
 **Requests** is a simple, yet elegant HTTP library.
 
 ```python
+
+
+
+
 >>> import requests
 >>> r = requests.get('https://api.github.com/user', auth=('user', 'pass'))
 >>> r.status_code
